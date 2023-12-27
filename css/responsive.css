@@ -62,8 +62,20 @@
         width: 500px;
         margin: 0 auto;
     }
+    /* popular part */
+    .popular-header .common-heading p{
+        width: 500px;
+        margin: 0 auto;
+    }
 }
 @media (max-width:575px) {
+    .common-heading h2 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+    .common-heading p {
+        font-size: 12px;
+    }
     #banner{
         height: 600px;
     }
@@ -107,8 +119,31 @@
       width:295px;
     }
     /* benefit part */
+    #benefit {
+        padding: 60px 0 35px;
+    }
+    .main-benefit{
+        width: 300px;
+        margin: 0 auto;
+    }
     .benefit-header .common-heading p {
         width: 100%;
         margin: 0 auto;
+    }
+    .benefit-item h3 {
+        font-size: 18px;
+    }
+    .benefit-item p {
+        width: 230px;
+        font-size: 12px;
+        
+    }
+    /* popular part */
+    .popular-header .common-heading p{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .popular-item .card-body p {
+        font-size: 12px;
     }
 }

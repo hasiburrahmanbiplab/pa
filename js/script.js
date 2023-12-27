@@ -3,31 +3,15 @@ $('.counter').counterUp({
     time: 1000
 });
 
-$('.popular-slide').slick({
+$('.popular-slider').slick({
     slidesToShow: 5,
     slidesToScroll: 2,
     // autoplay: true,
     autoplaySpeed: 1000,
     arrows:false,
     responsive: [
-        {
-          breakpoint: 2201,
-          settings: {
-            slidesToShow: 6,
-            slidesToScroll: 3,
-            infinite: true,
-          }
-        },
-        {
-            breakpoint: 1601,
-            settings: {
-              slidesToShow: 5,
-              slidesToScroll: 2,
-              infinite: true,
-            }
-          },
           {
-            breakpoint: 1200,
+            breakpoint: 1400,
             settings: {
               slidesToShow: 4,
               slidesToScroll: 2,
@@ -35,10 +19,18 @@ $('.popular-slide').slick({
             }
           },
           {
-            breakpoint: 992,
+            breakpoint: 1200,
             settings: {
               slidesToShow: 3,
-              slidesToScroll: 3,
+              slidesToScroll: 1,
+              infinite: true,
+            }
+          },
+          {
+            breakpoint: 992,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
               infinite: true,
             }
           },

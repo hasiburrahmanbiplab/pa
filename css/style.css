@@ -6,6 +6,9 @@
     --white:#ffffff;
     --yellow:#FF8B00;
 }
+body{
+    font-family: var(--font-family);
+}
 *{
     padding: 0;
     margin: 0;
@@ -265,7 +268,7 @@ img{
 /* benefit part start */
 #benefit{
     background: var(--white);
-    padding: 70px 0;
+    padding: 70px 0 40px;
 }
 .benefit-header .common-heading p{
     width: 700px;
@@ -322,3 +325,36 @@ img{
     -moz-transition: ease-in-out 0.1s;
 }
 /* benefit part End */
+/* popular part start */
+#popular{
+    background: var(--white);
+}
+.popular-header .common-heading p{
+    width: 700px;
+    margin: 0 auto;
+}
+.popular-item{
+    box-shadow: 0 0 2px rgb(3, 3, 3);
+    padding: 20px;
+}
+.popular-item .card-body h5{
+    font-size: 18px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    color: var(--header-color);
+    padding: 10px 0;
+}
+.popular-item .card-body p{
+    font-size: 14px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    color: var(--p-color);
+    padding-bottom: 10px;
+}
+.popular-item .card-body ul span{
+    font-size: 14px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    color: var(--yellow);
+}
+/* popular part End */
