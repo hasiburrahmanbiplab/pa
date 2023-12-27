@@ -358,3 +358,86 @@ img{
     color: var(--yellow);
 }
 /* popular part End */
+/* go_travel part start */
+#go_travel{
+    background: var(--white);
+}
+.travel-text{
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+.travel-text .common-heading p{
+    padding: 10px 0;
+}
+.travel-text ul li p{
+    width: 350px;
+    font-size: 14px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    color: var(--p-color);
+}
+.travel-text .banner-btn button:hover{
+    color: var(--white) !important;
+}
+.travel-counter .card{
+    padding: 35px 15px;
+}
+.container{
+    border: 1px solid red;
+}
+.travel-counter{
+    width: 400px;
+    margin: 0 auto;
+}
+.travel-item .card:hover{
+    background: var(--btn-color);
+    transition: ease-in-out 0.2s;
+    -moz-transition: ease-in-out 0.2s;
+    -webkit-transition: ease-in-out 0.2s;
+}
+.travel-item .card:hover span{
+    color: var(--white);
+    transition: ease-in-out 0.2s;
+    -moz-transition: ease-in-out 0.2s;
+    -webkit-transition: ease-in-out 0.2s;
+}
+.travel-item .card:hover p{
+    color: var(--white);
+    transition: ease-in-out 0.2s;
+    -moz-transition: ease-in-out 0.2s;
+    -webkit-transition: ease-in-out 0.2s;
+}
+.travel-item .card .icon{
+    width: 60px;
+    height: 60px;
+    background: var(--white);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.travel-item .card-body h5 span{
+    font-size: 25px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    display: inline-block;
+    color: var(--header-color);
+    padding-top: 25px;
+    transition: ease-in-out 0.2s;
+    -moz-transition: ease-in-out 0.2s;
+    -webkit-transition: ease-in-out 0.2s;
+}
+.travel-item .card-body p{
+    font-size: 14px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    color: var(--p-color);
+    text-transform: capitalize;
+    transition: ease-in-out 0.2s;
+    -moz-transition: ease-in-out 0.2s;
+    -webkit-transition: ease-in-out 0.2s;
+}
+/* go_travel part End */
