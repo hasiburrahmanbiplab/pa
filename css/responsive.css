@@ -47,6 +47,18 @@
     .travel-counter .card{
         padding: 35px 25px;
     }
+    /* destination part */
+    .destination-text{
+        align-items: center;
+        text-align: center;
+    }
+    .destination-image{
+        width: 475px;
+        height: 460px;
+        margin: 0 auto;
+        background: var(--white);
+        position: relative;
+    }
 }
 @media (min-width:576px) and (max-width:767.99px) {
     /* banner part */
@@ -97,6 +109,16 @@
         margin: 0 auto;
         text-align: center;
         align-items: center;
+    }
+    /* destination part */
+    .destination-text{
+        align-items: center;
+        text-align: center;
+    }
+    .destination-image{
+        margin: 20px auto;
+        background: var(--white);
+        background: red;
     }
 }
 @media (max-width:575px) {
@@ -184,6 +206,10 @@
         font-size: 12px;
     }
     /* travel part */
+    .travel-counter {
+        width: 320px;
+        margin: 0 auto;
+    }
     .travel-text{
         margin: 0 auto;
         text-align: center;
@@ -200,5 +226,63 @@
     }
     .travel-item .card .card-body p{
         color: var(--white);
+    }
+    /* destination part */
+    #destination .container{
+        overflow: hidden;
+    }
+    .destination-text{
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .destination-image{
+        width: 320px;
+        height: 440px;
+        margin: 20px auto;
+        background: var(--white);
+    }
+    .destination-image .img-1{
+        width: 220px;
+        height: 220px;
+        position: absolute;
+        left: 0;
+        z-index: 9;
+    }
+    .destination-image .img-2{
+        width: 220px;
+        height: 220px;
+        position: absolute;
+        right: 0px;
+        border: 10px solid var(--white);
+        border-radius: 20px;
+        z-index: 10;
+    }
+    .destination-image .img-3 {
+        width: 140px;
+        height: 150px;
+        position: absolute;
+        right: 10px;
+        top: 80px;
+        z-index: 8;
+    }
+    .destination-image .inner-text {
+        position: absolute;
+        left: 20px;
+        bottom: 3px;
+        z-index: 11;
+    }
+    .destination-image .inner-text .search {
+        width: 205px;
+    }
+    .destination-image .inner-text .search input::placeholder {
+        font-size: 12px;
+    }
+    .destination-image .inner-text ul li {
+        width: 180px;
+    }
+    .destination-image .inner-text ul li span {
+        font-size: 12px;
     }
 }
