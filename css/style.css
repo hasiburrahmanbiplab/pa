@@ -459,6 +459,61 @@ img{
     font-family: var(--font-family);
     text-transform: capitalize;
 }
+.destination-text ul li{
+    margin-bottom: 10px;
+}
+.destination-text ul li span{
+    display: inline-block;
+    font-size: 13px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    color: var(--p-color);
+}
+.destination-text .main-accordion{
+    width: 100%;
+}
+.main-accordion .accordion-item h2 button{
+    font-size: 14px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    color: var(--header-color);
+}
+.main-accordion .accordion-item .accordion-body{
+    font-size: 14px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    color: var(--p-color);
+}
+.main-accordion .accordion-button{
+    position: relative;
+}
+.main-accordion .accordion-button::before{
+    content: "";
+    width: 13px;
+    height: 13px;
+    position:absolute;
+    left: 0px;
+    border: 1px solid var(--p-color);
+    border-radius: 50%;
+}
+.main-accordion .accordion-button::after {
+	margin-left: 10px;
+}
+.main-accordion .accordion-button:not(.collapsed)::before {
+	background: var(--btn-color);
+    border: 1px solid var(--btn-color);
+}
+.main-accordion .accordion-button:focus {
+   box-shadow: none;
+   border-color: transparent;
+}
+.main-accordion .accordion-button:not(.collapsed) {
+	background-color: var(--white);
+    box-shadow: none;
+}
+.main-accordion .accordion-item:first-of-type .accordion-button {
+	border-radius: 0px;
+}
 .destination-image{
     width: 475px;
     height: 460px;

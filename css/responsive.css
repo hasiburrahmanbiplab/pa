@@ -112,16 +112,25 @@
     }
     /* destination part */
     .destination-text{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        align-items: center;
+        text-align: center;
+    }
+    .destination-text .common-heading{
+        max-width: 440px;
+    }
+    .destination-text{
         align-items: center;
         text-align: center;
     }
     .destination-image{
         margin: 20px auto;
         background: var(--white);
-        background: red;
     }
 }
-@media (max-width:575px) {
+@media (max-width:575.99px) {
     .common-heading h2 {
         font-size: 25px;
         font-weight: 600;
@@ -234,8 +243,15 @@
     .destination-text{
         width: 100%;
         height: 100%;
+        margin: 0 auto;
         align-items: center;
         text-align: center;
+    }
+    .destination-text .common-heading{
+        max-width: 400px;
+    }
+    .destination-text ul{
+        max-width: 400px;
     }
     .destination-image{
         width: 320px;
