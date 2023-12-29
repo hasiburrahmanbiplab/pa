@@ -787,3 +787,65 @@ img{
     color: var(--white);
 }
 /* testimonial part End */
+/* about part us start */
+#about{
+    background: #007F5F;
+}
+#about .overly{
+    background: url(../image/footer.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.about-content{
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px 0;
+}
+.about-content .common-heading h2{
+    color: var(--white);
+}
+.about-content .common-heading p{
+    color: rgba(255, 255, 255, 0.582);
+    padding: 10px 0;
+}
+.about-content .email-box{
+    max-width: 430px;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    gap: 10px;
+    margin: 0 auto;
+    background: var(--white);
+    padding: 10px;
+    border-radius: 10px;
+}
+.about-content .email-box input{
+   font-size: 14px;
+   font-family: var(--font-family);
+   font-weight: 400;
+   color: var(--header-color);
+   border: 0;
+   /* border: 1px solid red; */
+   width: 100%;
+   text-align: center;
+}
+.about-content .email-box input::placeholder{
+   font-size: 14px;
+   font-family: var(--font-family);
+   font-weight: 400;
+   color: var(--p-color);
+}
+.about-content .email-box button{
+   font-size: 14px;
+   font-family: var(--font-family);
+   font-weight: 400;
+   border: 0;
+   padding: 10px 15px;
+   background: var(--btn-color);
+   color: var(--white);
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.384);
+   border-radius: 10px;
+}
+/* about part us End */
