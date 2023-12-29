@@ -604,4 +604,48 @@ img{
     font-weight: 400;
     color: var(--p-color);
 }
+.destination-image .inner-text-2 {
+    position: absolute;
+    left: 70px;
+    bottom: 90px;
+    z-index: 11;
+}
+.destination-image .inner-text-2 span{
+    display: inline-block;
+    font-size: 14px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    color: var(--p-color);
+    background: rgb(255, 255, 255);
+    padding: 5px;
+    margin-top: 10px;
+}
 /* destination part End */
+/* explore part start */
+#explore{
+    background: var(--white);
+}
+.explore-header{
+    width: 100%;
+}
+.explore-header .common-heading{
+    max-width:400px;
+}
+.main-explore .explore-nav .nav-link{
+    font-size: 14px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    color: var(--p-color);
+    transition: ease-in-out 0.3s;
+    border-radius: 10px;
+}
+.main-explore .explore-nav .active{
+    background: var(--btn-color);
+    color: var(--white);
+}
+.main-explore .nav-link:hover{
+   background: var(--btn-color);
+   color: var(--white);
+   transition: ease-in-out 0.3s;
+}
+/* explore part End */

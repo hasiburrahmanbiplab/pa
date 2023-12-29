@@ -20,6 +20,7 @@
         width: 500px;
         margin: 0 auto;
     }
+
 }
 @media (min-width:992px) and (max-width:1199.99px) {
     #banner{
@@ -128,6 +129,12 @@
     .destination-image{
         margin: 20px auto;
         background: var(--white);
+    }
+    .destination-image .inner-text-2 {
+        position: absolute;
+        left: 70px;
+        bottom: 100px;
+        z-index: 11;
     }
 }
 @media (max-width:575.99px) {
@@ -289,6 +296,12 @@
         bottom: 3px;
         z-index: 11;
     }
+    .destination-image .inner-text-2 {
+        position: absolute;
+        left: 20px;
+        bottom: 100px;
+        z-index: 11;
+    }
     .destination-image .inner-text .search {
         width: 205px;
     }
@@ -301,4 +314,6 @@
     .destination-image .inner-text ul li span {
         font-size: 12px;
     }
+    /* explore part start */
+  
 }
