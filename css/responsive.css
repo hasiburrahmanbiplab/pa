@@ -60,6 +60,10 @@
         background: var(--white);
         position: relative;
     }
+    /* testimonial part start */
+    .testimonial-item .t-text::after{
+        display: none;
+     }
 }
 @media (min-width:576px) and (max-width:767.99px) {
     /* banner part */
@@ -136,6 +140,10 @@
         bottom: 100px;
         z-index: 11;
     }
+    /* testimonial part */
+    .testimonial-item .t-text::after{
+        display: none;
+     }
 }
 @media (max-width:575.99px) {
     .common-heading h2 {
@@ -315,5 +323,50 @@
         font-size: 12px;
     }
     /* explore part start */
+    /* testimonial part start */
+    #testimonial{
+        background: var(--white);
+    }
+    .testimonial-item{
+        flex-direction: column;
+        border: none;
+    }
+    .testimonial-item .t-text{
+        position: relative;
+    }
+    .testimonial-item .t-text h4{
+        position: relative;
+        z-index: 2;
+    }
+    .testimonial-item .t-text::before{
+       content: "";
+       width: 60px;
+       height: 60px;
+       background: var(--btn-color);
+       position: absolute;
+       top: -5%;
+       left: 50%;
+       z-index: 1;
+       transform: translate(-50%, 5%) rotate(46deg);
+    }
+    .testimonial-item .t-text::after{
+        display: none;
+     }
+    .testimonial-item .t-img{
+        width: 100%;
+        padding: 20px;
+        margin: 0 auto;
+        text-align: center;
+     }
+     .testimonial-item .t-img .icon{
+        margin: 0 auto;
+     }
+     .testimonial-item .t-text{
+        width: 100%;
+        padding: 20px;
+        background: var(--btn-color);
+     }
+    
+    /* testimonial part End */
   
 }

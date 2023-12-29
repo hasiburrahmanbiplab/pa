@@ -54,10 +54,11 @@ $('.popular-slider').slick({
   });
   $('.explore-slide') .slick({
     slidesToShow: 4,
-    slidesToScroll: 2,
+    slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 1000,
     arrows:false,
+    dots:true,
     responsive: [
       {
         breakpoint: 1400,
@@ -65,6 +66,7 @@ $('.popular-slider').slick({
           slidesToShow: 4,
           slidesToScroll: 2,
           infinite: true,
+          dots:true,
         }
       },
       {
@@ -73,6 +75,7 @@ $('.popular-slider').slick({
           slidesToShow: 3,
           slidesToScroll: 1,
           infinite: true,
+          dots:true,
         }
       },
       {
@@ -81,6 +84,7 @@ $('.popular-slider').slick({
           slidesToShow: 2,
           slidesToScroll: 1,
           infinite: true,
+          dots:true,
         }
       },
       {
@@ -89,6 +93,7 @@ $('.popular-slider').slick({
           slidesToShow: 2,
           slidesToScroll: 1,
           infinite: true,
+          dots:true,
         }
       },
       {
@@ -97,6 +102,7 @@ $('.popular-slider').slick({
           slidesToShow: 1,
           slidesToScroll: 1,
           infinite: true,
+          dots:true,
         }
       },
   ]
@@ -104,10 +110,21 @@ $('.popular-slider').slick({
   // art-culture
 
   $('.testimonial-slide').slick({
-    slidesToShow: 1,
+    slidesToShow: 2,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 1000,
     arrows:false,
+    dots:true,
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+        }
+      },
+  ]
   });
  
