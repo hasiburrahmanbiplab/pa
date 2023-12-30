@@ -60,10 +60,6 @@
         background: var(--white);
         position: relative;
     }
-    /* testimonial part start */
-    .testimonial-item .t-text::after{
-        display: none;
-     }
 }
 @media (min-width:576px) and (max-width:767.99px) {
     /* banner part */
@@ -141,9 +137,6 @@
         z-index: 11;
     }
     /* testimonial part */
-    .testimonial-item .t-text::after{
-        display: none;
-     }
 }
 @media (max-width:575.99px) {
     .common-heading h2 {
@@ -197,7 +190,7 @@
         padding-bottom: 35px;
     }
     .main-benefit{
-        width: 300px;
+        max-width: 400px;
         margin: 0 auto;
     }
     .benefit-content .benefit-item{
@@ -231,7 +224,7 @@
     }
     /* travel part */
     .travel-counter {
-        width: 320px;
+        max-width: 400;
         margin: 0 auto;
     }
     .travel-text{
@@ -366,9 +359,17 @@
         padding: 20px;
         background: var(--btn-color);
      }
-    
     /* testimonial part End */
-    /* about us part start */
-    /* about us part End */
+    /* footer part start */
+    .footer-content ul li a{
+        font-size: 12px;
+        font-family: var(f
+        --font-family);
+        font-weight: 400;
+        color: var(--p-color);
+        border-bottom: 1px solid transparent;
+    }
+    /* footer part End */
+    
   
 }
