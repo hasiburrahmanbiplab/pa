@@ -59,7 +59,9 @@ img{
     font-weight: 400;
     color: var(--p-color);
 }
-
+body{
+    overflow-x: hidden !important;
+}
 /* common css End */
 /* navbar part start */
 .navbar-toggler{
@@ -726,8 +728,7 @@ img{
     justify-content: center;
     align-items: center;
     border-radius: 50%;
-    background: var(--btn-color);
-    box-shadow: 0 0 1px 1px var(--btn-color);
+    box-shadow: 0 0 10px var(--btn-color);
 }
 .testimonial-item .t-img .icon img{
     width: 100%;

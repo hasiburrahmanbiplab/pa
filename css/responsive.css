@@ -272,7 +272,7 @@
         width: 220px;
         height: 220px;
         position: absolute;
-        left: 0;
+        left: 5px;
         z-index: 9;
     }
     .destination-image .img-2{
